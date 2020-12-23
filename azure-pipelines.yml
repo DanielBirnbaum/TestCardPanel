@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'windows-latest'
+  CardPanel
 
 steps:
 - task: PowerShell@2
