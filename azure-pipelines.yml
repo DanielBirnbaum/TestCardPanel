@@ -15,7 +15,15 @@ steps:
     targetType: 'inline'
     script: |
       # Write your PowerShell commands here.
+      $PATH = pwd
+      cd DCC32
+      .\DCC32.EXE -Q -B $path\CardPanel.dpr
+      cd ..
+      .\- task: PythonScript@0
+  inputs:
+    scriptSource: 'filePath'
+    scriptPath: 'TCardPanel.py'
+
       
-      pwd
 
 
