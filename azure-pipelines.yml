@@ -16,6 +16,6 @@ steps:
     script: |
       # Write your PowerShell commands here.
       
-      ls c:\Users
+      pwd
 
 
