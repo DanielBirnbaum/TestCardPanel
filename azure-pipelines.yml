@@ -20,7 +20,7 @@ steps:
       cd DCC32
       .\DCC32.EXE -Q -B $path\CardPanel.dpr
       cd ..
-      ls
+      TCrdPanel.py
     
       
 
