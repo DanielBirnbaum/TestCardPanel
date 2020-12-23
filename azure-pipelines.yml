@@ -16,7 +16,7 @@ steps:
     script: |
       # Write your PowerShell commands here.
       
-      ./pwd
+      pwd
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
