@@ -20,9 +20,10 @@ steps:
       .\DCC32.EXE -Q -B $path\CardPanel.dpr
       cd ..
       .\- task: PythonScript@0
-  inputs:
-    scriptSource: 'filePath'
-    scriptPath: 'TCardPanel.py'
+      - task: UsePythonVersion@0
+         
+      scriptSource: 'filePath'
+      scriptPath: 'TCardPanel.py'
 
       
 
