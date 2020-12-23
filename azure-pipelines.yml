@@ -17,11 +17,8 @@ steps:
       # Write your PowerShell commands here.
       $PATH = pwd
       cd DCC32
-      pwd
       .\DCC32.EXE -Q -B $path\CardPanel.dpr
-      pwd
       cd ..
-      pwd
       ls
     
       
